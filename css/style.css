@@ -9,6 +9,10 @@ body{
     overflow: hidden;
 }
 
+img{
+    max-width: 100%;
+}
+
 .debug{
     background-color: aqua;
 
@@ -18,21 +22,59 @@ body{
         background-color: blueviolet;
     }
 
-
-    .bottom{
-        background-color: gray;
-    }
 }
 
 
 .top{
-    height: var(--band-top-height);
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.btn-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.search-ms{
+    background-color: #464646;
+    color: gray;
+    border: none;
+    border-radius: 2px ;
+    padding: 15px;
+    width: 300px;
+}
+
+
+.mid{
+    background-color: #2b2b2b;
+    padding: 20px;
+}
+
+.add-gn{
+    background-color: #2b2b2b;
+    color: lightslategray;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 8px;
+    width: 400px;   
 }
 
 
 .bottom{
-    height: calc(100% - var(--band-top-height));
+    
+    background-color: #222222;
     display: flex;
+
+   
 
     .left{
         width: 70%;
@@ -52,10 +94,32 @@ body{
     padding: 1rem;
 
     .col{
-        width: 300px;
-        height: 150px;
+        width: calc(100%/4);
+        height: 350px;
+        padding: 1rem;
     }
 }
+
+.img-playlist{
+    border: 1px solid grey;
+}
+
+
+.img-play{
+    padding: 1rem;
+    width: 30rem;
+}
+
+.cl-gray{
+    color: lightslategrey;
+}
+
+.text{
+    color: white;
+    font-size: 14px;
+}
+
+
 
 
 @media screen and (max-width: 744px){
