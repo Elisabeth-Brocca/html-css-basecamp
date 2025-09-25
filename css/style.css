@@ -291,23 +291,36 @@ body{
     .top{
         justify-content: flex-start;
         
+        
         .logo{
             height: 40px;        
         }
     
         .search-ms{
             width: 150px;
+            background-color: #222222;
+        }
+
+        .btn-navbar{
+            margin-left:35px;
         }
     }
 
+    .add-gn{
+        width: 500px;
+    }
 
     .right{
         display: none;
     }
-
         
+    .bottom{
+        width: 900px;
+    }
+    
 
      .container-flex{
+        width: 600px;
          .col{
              padding: 10px;
              width: calc(100%/2);
